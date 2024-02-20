@@ -95,7 +95,7 @@
         <hr>
         <!-- 
             The Block Level Element
-            Starts a new line and requiresfull width availability.
+            Starts a new line and requires full width availability.
             Includes: div, h1-h6, p, form, header, footer, section, and aside 
         -->
         <div class="block-level">
@@ -110,7 +110,7 @@
         </div>
 
         <!-- 
-            And inline element DOES NOT start a new line andonly uses spacerequired for content.Includes: span, a, img
+            And inline element DOES NOT start a new line and only uses space required for content. Includes: span, a, img
         -->
         <p>This is a new paragraph and click <a href='https://codingtemple.com'>HERE</a> for the Coding Temple Home Page</p>
 
@@ -121,6 +121,7 @@
             <img src="https://picsum.photos/200?random=13" alt="">
             <img src="https://picsum.photos/200?random=14" alt="">
         </div>
+        <button id="test-display">Click Me</button>
     </section>
 
     <section class="positions">
@@ -133,6 +134,13 @@
         </div>
     </section>
     
+    <script>
+        let button = document.getElementById('test-display');
+        button.addEventListener('click', () => {
+            let middlePhoto = document.getElementById('middle')
+            middlePhoto.style.display = middlePhoto.style.display === 'none' ? 'inline' : 'none'
+        })
+    </script>
 
 </body>
 </html>
