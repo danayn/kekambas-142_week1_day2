@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: dodgerblue;
+    padding: 2vw;
+}
+
+.selectors{
+    border: 2px solid lightgray;
+    margin: 10px 0;
+}
+
+.button {
+    background-color:  #FFD700; 
+    color: black; 
+    border: 2px solid #FFD700;
+  }
