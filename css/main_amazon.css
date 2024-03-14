@@ -5,13 +5,13 @@ body {
 .navbar{
     display: flex;
     justify-content: space-around;
-    background-color: dodgerblue;
+    background-color: #131921;
     padding: 2vw;
 }
 
 .selectors{
     border: 2px solid lightgray;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .button {
@@ -19,3 +19,11 @@ body {
     color: black; 
     border: 2px solid #FFD700;
   }
+
+
+.main_center {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px;
+}
+
